@@ -1,0 +1,9 @@
+The `calc()` function in CSS needs consistent units for all its operands.  The following code demonstrates correct usage of `calc()` with explicit units and handling of operator precedence using parentheses.
+
+```css
+div {
+  width: calc(50% - 10px);
+  height: calc(100px + (20% * 2));
+}
+```
+In the above code, we have correctly added the 'px' unit to the numeric value '10', and used parentheses to clearly define the precedence of operations.  The absence of units or an incorrect order of operations will result in unexpected or invalid CSS calculations.
